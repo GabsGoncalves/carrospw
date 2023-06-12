@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/pista.webp);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(19, 18, 18, 0.822);
+}
+
+header h1  {
+    color: white;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.3); /* Define a cor de fundo com transparência */
+    backdrop-filter: blur(10px); /* Aplica o filtro de desfoque */
+    display: flex;
+    flex-direction: row;
+    width: 97vw;
+    box-shadow: 3.9px 4.7px 2.7px rgba(0, 0, 0, 0.056), 9.6px 11.4px 6.9px rgba(0, 0, 0, 0.059), 19.2px 22.9px 14.2px rgba(0, 0, 0, 0.062), 40.2px 48.1px 29.2px rgba(0, 0, 0, 0.07), 122px 146px 80px rgba(0, 0, 0, 0.09);
+    border-radius: 25px;
+    border: solid rgba(255, 71, 30, 1) 2px;
+
+}
+
+form {
+    background: rgb(255, 71, 30);
+    background: radial-gradient(circle, rgba(255, 71, 30, 1) 42%, rgba(244, 51, 51, 1) 100%);
+    text-align: left;
+    line-height: 2;
+    padding: 10px;
+    box-sizing: border-box;  /* Faz com que o padding siga o tamanho do conainer e nao aumente a mais que 100% */
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    align-items: start;
+}
+
+#direita {
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}
+
+#d1 {flex: 40%;}
+#d2 {flex: 60%;}
+
+#d1 div {
+    background-color: transparent;
+    height: 35.19px;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#direita div a {
+    text-decoration: none;
+    color: black;
+}
+
+input[type=button] {
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: solid white 2px;
+}
+
+input[type=radio] {
+    accent-color: rgb(0, 0, 0);
+}
+
+#ben10 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#foto {
+    border-radius: 25px;
+}
+
+#d2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
